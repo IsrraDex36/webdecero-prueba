@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Exo+2:ital,wght@0,376;1,376&family=Micro+5&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+/* Puse la tipografia de Quicksand directamente desde el archivo de estilos global para mejor aplicacioón */
+
+
+body, html {
+  font-family: "Quicksand", sans-serif !important;
+  margin: 0;
+  padding: 0;
+}
+ 
+*, *::before, *::after {
+  font-family: inherit !important;
+}
